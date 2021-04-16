@@ -14,5 +14,9 @@
         "key": "ctrl+k",
         "command": "editor.action.showHover",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "extension.advancedNewFile"
     }
 ]
