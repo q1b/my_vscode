@@ -9,7 +9,7 @@
         {
             "before": [
                 "j",
-                "j"
+                "k"
             ],
             "after": [
                 "<Esc>"
@@ -18,7 +18,7 @@
         {
             "before": [
                 "k",
-                "k"
+                "j"
             ],
             "after": [
                 "<Esc>"
@@ -52,49 +52,14 @@
             "commands": [
                 "revealInExplorer"
             ]
-        },
-        {
-            "before": [
-                "d"
-            ],
-            "after": [
-                "\"",
-                "_",
-                "d"
-            ]
-        },
-        {
-            "before": [
-                "D"
-            ],
-            "after": [
-                "\"",
-                "_",
-                "D"
-            ]
-        },
-        {
-            "before": [
-                "d",
-                "d"
-            ],
-            "after": [
-                "\"",
-                "_",
-                "d",
-                "d"
-            ]
         }
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
         "<C-a>": false,
         "<C-f>": false,
-        // Copy
         "<C-c>": false,
-        // Cut
         "<C-x>": false,
-        // Paste
         "<C-v>": false,
         "<C-z>": false,
         "<C-y>": false
@@ -102,5 +67,4 @@
     "files.autoSave": "afterDelay",
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     "terminal.integrated.shellArgs.windows": [],
-    "dart.flutterSdkPath": "C:\\Users\\p32929\\Documents\\SDKs\\flutter",
 }
