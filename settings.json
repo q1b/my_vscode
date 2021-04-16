@@ -28,14 +28,6 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
-                "<C-n>"
-            ],
-            "commands": [
-                ":nohl"
-            ]
-        },
-        {
-            "before": [
                 "<leader>",
                 "w"
             ],
@@ -61,6 +53,38 @@
                 "revealInExplorer"
             ]
         },
+        {
+            "before": [
+                "d"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "D"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "D"
+            ]
+        },
+        {
+            "before": [
+                "d",
+                "d"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d",
+                "d"
+            ]
+        }
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
@@ -76,4 +100,7 @@
         "<C-y>": false
     },
     "files.autoSave": "afterDelay",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [],
+    "dart.flutterSdkPath": "C:\\Users\\p32929\\Documents\\SDKs\\flutter",
 }
