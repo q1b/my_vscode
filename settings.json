@@ -29,15 +29,6 @@
         {
             "before": [
                 "<leader>",
-                "w"
-            ],
-            "commands": [
-                "workbench.action.splitEditor"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
                 "e"
             ],
             "commands": [
@@ -52,19 +43,57 @@
             "commands": [
                 "revealInExplorer"
             ]
-        }
+        },
+        // Short Vims
+        {
+            "before": [
+                "<leader>",
+                "l"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "k"
+            ],
+            "after": [
+                "g",
+                "g"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "j"
+            ],
+            "after": [
+                "G"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "h"
+            ],
+            "after": [
+                "^"
+            ]
+        },
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
         "<C-a>": false,
         "<C-f>": false,
         "<C-c>": false,
-        "<C-x>": false,
+        "<C-r>": false,
         "<C-v>": false,
+        "<C-x>": false,
+        "<C-y>": false,
         "<C-z>": false,
-        "<C-y>": false
     },
-    "files.autoSave": "afterDelay",
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-    "terminal.integrated.shellArgs.windows": [],
+    "vim.smartRelativeLine": true
 }
