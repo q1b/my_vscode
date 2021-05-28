@@ -1,11 +1,6 @@
 // Place your key bindings in this file to override the defaults
 [
     {
-        "key": "ctrl+k",
-        "command": "editor.action.showHover",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "ctrl+n",
         "command": "extension.advancedNewFile"
     }
