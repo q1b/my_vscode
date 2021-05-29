@@ -2,7 +2,6 @@
     "telemetry.enableTelemetry": false,
     "vim.easymotion": true,
     "vim.incsearch": true,
-    "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
     "vim.hlsearch": true,
     "vim.insertModeKeyBindings": [
@@ -82,6 +81,27 @@
                 "^"
             ]
         },
+        //
+        {
+            "before": ["d","d"],
+            "commands":["editor.action.deleteLines"],
+            "when":"textInputFocus && !editorReadonly"
+        },
+        {
+            "before":["y"],
+            "commands":["editor.action.clipboardCopyAction"],
+            "when":"textInputFocus"
+        },
+        {
+            "before":["y","y"],
+            "commands":["editor.action.clipboardCopyAction"],
+            "when":"textInputFocus"
+        },
+        {
+            "before":["p"],
+            "commands":["editor.action.clipboardPasteAction"],
+            "when":"textInputFocus && !editorReadonly"
+        }
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
@@ -95,5 +115,7 @@
         "<C-z>": false,
     },
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-    "vim.smartRelativeLine": true
+    "vim.smartRelativeLine": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "vim.useSystemClipboard": true
 }
