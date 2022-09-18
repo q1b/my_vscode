@@ -1,7 +1,8 @@
 // Place your key bindings in this file to override the defaults
 [
     {
-        "key": "ctrl+n",
-        "command": "extension.advancedNewFile"
-    }
+		"key": "ctrl+n",
+		"command": "workbench.files.action.createFileFromExplorer",
+		"when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+	}
 ]
